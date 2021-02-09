@@ -6,6 +6,7 @@ import MainContent from "./component/MainContent.js";
 import ToDo from "./component/ToDo";
 import CatContactList from "./component/CatContactList";
 import ContactList from "./component/ContactList";
+import JokeList from "./component/JokeList";
 
 export default function App() {
   return (
@@ -15,6 +16,7 @@ export default function App() {
       <ToDo />
       <CatContactList />
       <ContactList />
+      <JokeList />
       <Footer />
     </div>
   );
