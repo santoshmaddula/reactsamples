@@ -17,7 +17,22 @@ function Greetings() {
     console.log(timeOfDay);
   }
 
-  return <p>{timeOfDay}</p>;
+  const styles = {
+    color: "#FF8C00",
+    backgroundColor: "#FF2D00",
+    fontSize: "30px"
+  };
+
+  return (
+    //inline styling
+    // <h2 style={{ color: "#FF8C00", backgroundColor: "#FF2D00" }}>
+    //   {timeOfDay}
+    // </h2>
+    <div>
+      <h2 style={styles}>{timeOfDay}</h2>
+      {`${date}`}
+    </div>
+  );
 }
 
 export default Greetings;
