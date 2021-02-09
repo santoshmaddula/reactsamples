@@ -1,12 +1,7 @@
 import React from "react";
 
 function Header() {
-  return (
-    <div>
-      <h1>Hello StackBlitz!</h1>
-      <p>Start editing to see some magic happen :)</p>
-    </div>
-  );
+  return <header className="navbar">This is the header</header>;
 }
 
 export default Header;
