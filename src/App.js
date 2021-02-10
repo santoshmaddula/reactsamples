@@ -7,6 +7,8 @@ import ToDo from "./component/ToDo";
 import CatContactList from "./component/CatContactList";
 import ContactList from "./component/ContactList";
 import JokeList from "./component/JokeList";
+import Jokes from "./component/Jokes";
+import Products from "./component/Products";
 
 export default function App() {
   return (
@@ -17,6 +19,8 @@ export default function App() {
       <CatContactList />
       <ContactList />
       <JokeList />
+      <Jokes />
+      <Products />
       <Footer />
     </div>
   );
