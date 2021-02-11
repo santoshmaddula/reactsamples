@@ -4,14 +4,7 @@ import Product from "./Product";
 
 function Products() {
   const products = productsData.map(item => {
-    return (
-      <Product
-        key={item.id}
-        name={item.name}
-        price={item.price}
-        description={item.description}
-      />
-    );
+    return <Product key={item.id} product={item} />;
   });
   return <div>{products}</div>;
 }

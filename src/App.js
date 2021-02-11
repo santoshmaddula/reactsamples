@@ -10,18 +10,43 @@ import JokeList from "./component/JokeList";
 import Jokes from "./component/Jokes";
 import Products from "./component/Products";
 
-export default function App() {
-  return (
-    <div>
-      <Header />
-      <MainContent />
-      <ToDo />
-      <CatContactList />
-      <ContactList />
-      <JokeList />
-      <Jokes />
-      <Products />
-      <Footer />
-    </div>
-  );
+// function App() {
+//   return (
+//     <div>
+//       <Header />
+//       <MainContent />
+//       <ToDo />
+//       <CatContactList />
+//       <ContactList />
+//       <JokeList />
+//       <Jokes />
+//       <Products />
+//       <Footer />
+//     </div>
+//   );
+// }
+
+class App extends React.Component {
+  yourMethodHere() {}
+
+  constructor() {
+    super();
+    this.state = {
+      answer: "Yes"
+    };
+  }
+
+  render() {
+    return (
+      // <div>
+      //   <h1>{this.props.whatever}</h1>
+      // </div>
+
+      <div>
+        <h1>Is state important to know? {this.state.answer}</h1>
+      </div>
+    );
+  }
 }
+
+export default App;
