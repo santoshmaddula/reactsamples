@@ -44,6 +44,7 @@ class App extends React.Component {
 
       <div>
         <h1>Is state important to know? {this.state.answer}</h1>
+        <ToDo />
       </div>
     );
   }
